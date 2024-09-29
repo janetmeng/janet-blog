@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import profileImage from './assets/headshot.JPG'; 
-import headshot from './assets/headshot2.jpg';
+import headshot from './assets/headshot3.png';
 
 const Home = () => {
     const link = "https://www.linkedin.com/in/janet-meng/";
@@ -24,7 +23,7 @@ const Home = () => {
             />
 
             {/* Introduction */}
-            <p>
+            <p style={{ fontSize: '18px', lineHeight: '1.6' }}>
                 Hello! I'm Janet, a student studying Computer Science (BS) and Statistics (BS) at Duke University. 
                 I'm interested in engineering optimal software and tackling real-world problems—whether through accelerated computing or designing more accurate machine learning models.
             </p>
