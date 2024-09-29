@@ -1,22 +1,31 @@
 import Navbar from './Navbar';
-import Home from './Home';
+import Home from './Home'; 
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Projects from './Projects';
+import Hobbies from './Hobbies';
+
 
 function App() {
-  const likes = 50;
-  const link = "http://www.google.com";
+  const link = "https://www.linkedin.com/in/janet-meng/";
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
-        <p>Liked { likes } times</p>
-
-        <p>{ 10 } </p> 
-        <p>{ " hello ninjas"}</p>
-
-        <a href={link}>Google Site</a>
+    <Router> 
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Switch>
+            <Route exact path="/"> 
+              <Home />
+            </Route>
+            <Route path="/projects"> 
+              <Projects />
+            </Route>
+            <Route exact path="/hobbies">
+              <Hobbies /> 
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
