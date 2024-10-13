@@ -6,7 +6,6 @@ import Hobbies from './Hobbies';
 
 
 function App() {
-  const link = "https://www.linkedin.com/in/janet-meng/";
   return (
     <Router> 
       <div className="App">
