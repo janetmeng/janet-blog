@@ -1,14 +1,23 @@
 .contact {
     padding: 20px; /* Add padding around the contact section */
+    text-align: center; /* Center align the text */
+    background-color: #f9f9f9; /* Light background for the contact section */
+    border: 1px solid #e1e1e1; /* Border around the section */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 400px; /* Maximum width of the contact section */
+    margin: 0 auto; /* Center the section horizontally */
 }
 
 .contact-link {
     color: #007bff; /* Link color */
     text-decoration: none; /* Remove underline */
     display: block; /* Stack links vertically */
-    margin-bottom: 10px; /* Space between links */
+    margin-bottom: 15px; /* Space between links */
+    font-size: 18px; /* Increase font size for better readability */
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 .contact-link:hover {
+    color: #0056b3; /* Darker color on hover */
     text-decoration: underline; /* Add underline on hover */
 }
