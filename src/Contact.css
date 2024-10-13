@@ -1,0 +1,14 @@
+.contact {
+    padding: 20px; /* Add padding around the contact section */
+}
+
+.contact-link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Stack links vertically */
+    margin-bottom: 10px; /* Space between links */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

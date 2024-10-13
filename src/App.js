@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Projects from './Projects';
 import Hobbies from './Hobbies';
+import Contact from './Contact';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/hobbies">
               <Hobbies /> 
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </div>

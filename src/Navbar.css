@@ -28,7 +28,7 @@
   }
   
   .navbar .links a:hover {
-    background-color: #555;
+    background-color: rgb(170, 170, 170);
   }
   
   .navbar .links a.projects {
@@ -37,6 +37,10 @@
   
   .navbar .links a.hobbies {
     background-color: #5cc3ff;
+  }
+
+  .navbar .links a.contact {
+    background-color: #ffa0f7;
   }
   
   

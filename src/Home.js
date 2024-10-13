@@ -3,7 +3,9 @@ import headshot from './assets/headshot3.png';
 import './Home.css';
 
 const Home = () => {
-    const link = "https://www.linkedin.com/in/janet-meng/";
+    const linkedinlink = "https://www.linkedin.com/in/janet-meng/";
+    const gmaillink = "mailto:janet.meng@duke.edu";
+    const githublink = "https://github.com/janetmeng";
 
     const handleClick = (e) => {
         console.log('Hello, ninjas', e);
@@ -38,9 +40,14 @@ const Home = () => {
             <br />
             <br />
             {/* LinkedIn Link */}
-            <a href={link} target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'none' }}>
+            <a href={linkedinlink} target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'none' }}>
                 Connect with me on LinkedIn
             </a>
+
+            <br />
+
+            <Link to = "/contact">Contact Me</Link>
+
 
             {/* Buttons for demo purposes */}
             {/* <div className="button-container" style={{ marginTop: '20px' }}>
